@@ -24,7 +24,7 @@ const profile = {
     personalInfo: {
         name: 'Josh Bennedick A. Andales',
         address: '3787 J. Labra St., Guadalupe, Cebu City',
-        phoneNumber: '09761945795',
+        phonenumber: '09761945795',
         email: 'joshandales03@gmail.com',
         birthdate: 'September 15, 2003',
         sex: 'Male'
