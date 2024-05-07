@@ -22,12 +22,12 @@ const profile = {
         'Deans Lister (2023)'
     ],
     personalInfo: {
-        name: 'Josh Bennedick A. Andales',
-        address: '3787 J. Labra St., Guadalupe, Cebu City',
-        phonenumber: '09761945795',
-        email: 'joshandales03@gmail.com',
-        birthdate: 'September 15, 2003',
-        sex: 'Male'
+        name: "Josh Bennedick A. Andales",
+        address: "3787 J. Labra St., Guadalupe, Cebu City",
+        phonenumber: "09761945795",
+        email: "joshandales03@gmail.com",
+        birthdate: "September 15, 2003",
+        sex: "Male"
     }
 };
 
