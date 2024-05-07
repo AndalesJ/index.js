@@ -4,11 +4,13 @@ const app = express();
 const port = 3000;
 
 const profile = {
-    education: {
+    education: [
+        {
         degree: 'Bachelor of Science in Information Technology',
         year: '2022-2024',
         university: 'University of Southern Philippines Foundation'
-    },
+        }
+    ],
     skills:[
         'Proficient in typing skills and speed.',
         'Basic understanding of front-end web development.'
@@ -29,7 +31,7 @@ const profile = {
     }
 };
 
-app.unsubscribe(cors());
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.json(profile);
