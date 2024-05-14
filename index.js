@@ -6,6 +6,10 @@ const port = 3000;
 const profile = {
     education: {
         
+        degree: 'Science, Technology, Engineering, and Mathematics',
+        year: '2016-2020',
+        university: 'University of Southern Philippines Foundation',
+
         degree: 'Bachelor of Science in Information Technology',
         year: '2022-2024',
         university: 'University of Southern Philippines Foundation'
@@ -16,14 +20,15 @@ const profile = {
         'Basic understanding of front-end web development.'
     ],
     experience:[
-        'Airbnb - Customer Service (2024): Responding to customer concerns online.'
+        'Airbnb - Customer Service (2024): Responding to customer concerns online.',
+        'Basic frontend web designer.'
     ],
     awards: [
         'Deans Lister (2023)'
     ],
     personalInfo: {
         name: "Josh Bennedick A. Andales",
-        address: "3787 J. Labra St., Guadalupe, Cebu City",
+        address: "3787 J. Labra St., Guadalupe, Cebu City, Philippines",
         phonenumber: "09761945795",
         email: "joshandales03@gmail.com",
         birthdate: "September 15, 2003",
