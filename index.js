@@ -4,13 +4,16 @@ const app = express();
 const port = 3000;
 
 const profile = {
-    education: {
+    education: [
+        degree - 'Science, Technology, Engineering, and Mathematics',
+        year - '2016-2020',
+        university - 'University of Southern Philippines Foundation',
+
+        degree - 'Bachelor of Science in Information Technology',
+        year - '2022-2024',
+        university - 'University of Southern Philippines Foundation'
         
-        degree: 'Science, Technology, Engineering, and Mathematics',
-        year: '2016-2020',
-        university: 'University of Southern Philippines Foundation',
-        
-},
+    ],
     skills:[
         'Proficient in typing skills and speed.',
         'Basic understanding of front-end web development.'
